@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for header */
+header {
+  backdrop-filter: blur(10px);
+}
+
+header a {
+  transition: color 0.3s ease;
+}
+
+header a:hover {
+  color: #4a5568; /* Change to the color you desire */
+}
